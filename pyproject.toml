@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "merlin"
+version = "0.1.0"
+description = "ML Platform tooling"
+authors = ["Daniel Stahl"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+dask-kubernetes = "^2022.4.1"
+kubernetes = "^23.3.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
